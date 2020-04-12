@@ -28,6 +28,7 @@ body{
      -khtml-user-select: none; /* Konqueror HTML */
      -moz-user-select: none; /* Firefox */
      -ms-user-select: none; /* Internet Explorer/Edge */
+     -o-user-select: none;
   }
 
   .element{
@@ -39,6 +40,10 @@ body{
     position: relative;
     border: 1px solid;
     -webkit-transition: -webkit-transform .8s ease-in-out;
+    -ms-transition: -ms-transform .8s ease-in-out;
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+    -moz-transition: -moz-transform .8s ease-in-out;
+    -o-transition: -o-transform .8s ease-in-out;
     transition: transform .8s ease-in-out;
   }
 
