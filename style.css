@@ -67,6 +67,10 @@ body{
     position: absolute;
     left: 50%;
     top: 40%;
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     font-size: 20px;
   }
@@ -81,27 +85,51 @@ body{
     position: absolute;
     font-size: 10px;
     bottom: 1px;
-    transform: translate(-50%, -0%);
+    -ms-transform: translate(-50%, 0%);
+    -webkit-transform: translate(-50%, 0%);
+    -moz-transform: translate(-50%, 0%);
+    -o-transform: translate(-50%, 0%);
+    transform: translate(-50%, 0%);
     left: 50%;
     text-align: center;
   }
   .left:hover{
+    -ms-transform: translate(100%, 100%) scale(3, 3);
+    -webkit-transform: translate(100%, 100%) scale(3, 3);
+    -moz-transform: translate(100%, 100%) scale(3, 3);
+    -o-transform: translate(100%, 100%) scale(3, 3);
     transform: translate(100%, 100%) scale(3, 3);
   }
 
   .right:hover{
+    -ms-transform: translate(-100%, 100%) scale(3, 3);
+    -webkit-transform: translate(-100%, 100%) scale(3, 3);
+    -moz-transform: translate(-100%, 100%) scale(3, 3);
+    -o-transform: translate(-100%, 100%) scale(3, 3);
     transform: translate(-100%, 100%) scale(3, 3);
   }
 
   .bottom:hover{
+    -ms-transform: translate(0%, -100%) scale(3, 3);
+    -webkit-transform: translate(0%, -100%) scale(3, 3);
+    -moz-transform: translate(0%, -100%) scale(3, 3);
+    -o-transform: translate(0%, -100%) scale(3, 3);
     transform: translate(0%, -100%) scale(3, 3);
   }
 
   .normal:hover{
+    -ms-transform: scale(3, 3);
+    -webkit-transform: scale(3, 3);
+    -moz-transform: scale(3, 3);
+    -o-transform: scale(3, 3);
     transform: scale(3, 3);
   }
 
   .special:hover{
+    -ms-transform: translate(-100%, -100%) scale(3, 3);
+    -webkit-transform: translate(-100%, -100%) scale(3, 3);
+    -moz-transform: translate(-100%, -100%) scale(3, 3);
+    -o-transform: translate(-100%, -100%) scale(3, 3);
     transform: translate(-100%, -100%) scale(3, 3);
   }
   /*
